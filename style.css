@@ -1,0 +1,129 @@
+body {
+  background: linear-gradient(-90deg, #4C596E, #BABABA);
+  color: linear-gradient(-90deg, white, gray);
+}
+
+.div1 {
+  height: 0px;
+  background-color: black;
+  color: white;
+  transition: all 0.5s ease, 0.75s;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 0 1em black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Helvetica;
+}
+
+.p1 {
+  margin: 0;
+  font-family: Times;
+  color: black;
+  //background-color: white;
+  //text-shadow: 1px 1px darkgray;
+  border-style: none;
+}
+
+.but1 {
+  color: black;
+  background-color: gray;
+  font-size: 40px;
+  outline: none;
+}
+.but1:focus {
+  outline: none;
+}
+.but1:hover {
+  color: #0F3165;
+  background-color: darkgray;
+  outline: none;
+}
+
+.divBut {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  background: linear-gradient(-90deg, #4C596E, #BABABA);
+}
+
+.div2 {
+  height: 100%;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 55px;
+  font-family: Times;
+  font-style: italic;
+  margin: 0px 0px 20px 0px;
+  background-color: linear-gradient(-90deg, #4C596E, #BABABA);
+  /*box-shadow:inset 0px 5px 1px black,  0px 10px 5px 0px rgba(0,0,0,0.75);*/
+  color: linear-gradient(-90deg, white, gray);
+  /* background: gray;
+  /* For browsers that do not support gradients */
+  /*  background: -webkit-linear-gradient(-90deg, gray, white);
+  /* For Safari 5.1 to 6.0 */
+  /*  background: -o-linear-gradient(-90deg, gray, white);
+  /* For Opera 11.1 to 12.0 */
+  /* background: -moz-linear-gradient(-90deg, gray, white);
+  /* For Firefox 3.6 to 15 */
+  /* background: linear-gradient(-90deg, #4C596E, #BABABA);
+  /* Standard syntax */
+}
+
+.div3 {
+  text-align: center;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  margin: 0 50px 0 0;
+  background: linear-gradient(-90deg, #4C596E, #BABABA);
+  /*box-shadow:inset 0px 5px 1px black,  0px 10px 5px 0px rgba(0,0,0,0.75);*/
+  color: black;
+  /*linear-gradient(-90deg, black, gray);*/
+  font-family: Times;
+  font-size: 44px;
+  height: 100%;
+  width: 100%;
+}
+
+.by {
+  font-size: 38px !important;
+  float: right;
+  margin: 0 250px 0 100px;
+}
+
+.but2 {
+  position: fixed;
+  bottom: 0;
+  outline: none;
+  margin-top: 250px;
+  font-size: 20px;
+  text-align: left;
+  width: 100px;
+  box-shadow: none;
+  border-style: none;
+  border: none;
+  background: none;
+}
+
+.div4 {
+  padding-right: 93%;
+}
+
+.twit:active,
+.twit:focus {
+  box-shadow: none;
+  border-style: none;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.twit {
+  box-shadow: none;
+  border-style: none;
+  border: none;
+  background: none;
+  outline: none;
+}
