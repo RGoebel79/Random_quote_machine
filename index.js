@@ -38,10 +38,14 @@ $(document).ready(function() {
 
     myBox.one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',
       function(e) {
+      If (newQuote == ""){
+        $(".pquote").text("No quote recieved from API");
+        $(".by").text("Random Quote Machine");
+      } else {
         $(".pquote").text('"' + newQuote + '"');
         $(".by").text("- " + newBy);
         $(".but2").attr('href', 'https://twitter.com/intent/tweet?text=' + '"' + newQuote + '" - ' + newBy);
-
+      }
         myBox.animate({
           height: "0px"
         });
