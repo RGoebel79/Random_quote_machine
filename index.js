@@ -38,7 +38,7 @@ $(document).ready(function() {
 
     myBox.one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',
       function(e) {
-      If (newQuote == ""){
+      if (newQuote == ""){
         $(".pquote").text("No quote recieved from API");
         $(".by").text("Random Quote Machine");
       } else {
